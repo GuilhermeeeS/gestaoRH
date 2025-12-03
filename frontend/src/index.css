@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Ubuntu', 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+  font-synthesis: none;
+  --background: 220 33% 97%;
+  --foreground: 222 35% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 35% 16%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 35% 16%;
+  --primary: 0 68% 48%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 216 20% 94%;
+  --secondary-foreground: 222 35% 16%;
+  --muted: 216 15% 92%;
+  --muted-foreground: 222 15% 42%;
+  --accent: 0 68% 50%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 46%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 220 14% 88%;
+  --input: 220 14% 88%;
+  --ring: 0 68% 50%;
+  --radius: 1rem;
+}
+
+.dark {
+  --background: 224 20% 10%;
+  --foreground: 210 20% 92%;
+  --card: 224 22% 14%;
+  --card-foreground: 210 20% 92%;
+  --popover: 224 22% 12%;
+  --popover-foreground: 210 20% 92%;
+  --primary: 0 68% 52%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 18% 20%;
+  --secondary-foreground: 210 20% 92%;
+  --muted: 222 12% 26%;
+  --muted-foreground: 216 15% 72%;
+  --accent: 0 68% 50%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 70% 46%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 220 14% 30%;
+  --input: 220 14% 26%;
+  --ring: 0 68% 50%;
+  --radius: 1rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    font-weight: 500;
+    @apply min-h-screen bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {}
+

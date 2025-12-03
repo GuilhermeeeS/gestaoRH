@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Builds
+backend/dist/
+frontend/dist/
+
+# Dados sensíveis
+*.env
+*.env.local
+backend/data/*.sqlite
+backend/data/*.db
+backend/data/*.sqlite3
+
+# Logs e diagnósticos
+npm-debug.log*
+yarn-error.log*
+
+# Cache de ferramentas
+.vscode/
+.DS_Store
