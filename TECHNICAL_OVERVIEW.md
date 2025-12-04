@@ -1,4 +1,4 @@
-# Central · ID — Visão Técnica
+# Central · ID - Visão Técnica
 
 Este documento explica como funciona a integração com os relógios Control iD sem presumir experiência prévia com ferramentas JavaScript. Ele descreve as tecnologias em linguagem direta, o layout do repositório, as rotinas diárias e os problemas mais comuns — agora em português.
 
