@@ -14,7 +14,7 @@ Aplicação full stack que concentra a comunicação com relógios Control iD e 
 ## 🖼️ Screenshot
 
 <!-- Substitua o caminho abaixo após exportar uma imagem do projeto -->
-![Prévia do dashboard](docs/screenshot-placeholder.png)
+![Prévia do dashboard](docs/dashboardScreen.png)
 
 ## ✨ Principais recursos
 - API Node.js/Express que se integra aos relógios Control iD via cURL.
